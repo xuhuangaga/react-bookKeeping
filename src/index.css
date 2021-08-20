@@ -1,0 +1,472 @@
+@import 'zarm/dist/zarm.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 设置元素display属性为flex */
+.f {
+  display: flex;
+}
+.f-1 {
+  flex: 1;
+}
+.f-2 {
+  flex: 2;
+}
+.f-3 {
+  flex: 3;
+}
+.f-4 {
+  flex: 4;
+}
+
+/* 
+  设置元素display属性为flex
+  元素水平方向居中显示
+  垂直方向居中显示
+   */
+.f-j-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-c {
+	 align-items: center;
+}
+
+/* 
+  设置元素display属性为flex
+  元素水平方向居右显示
+  垂直方向居中显示
+   */
+.f-j-e {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* 
+  设置元素display属性为flex
+  元素垂直方向居中显示
+  垂直方向居中显示
+   */
+.f-a-c {
+  display: flex;
+  align-items: center;
+}
+
+/* 元素内容支持换行 */
+.f-w {
+  flex-wrap: wrap;
+}
+/* 文本内容支持换行 */
+.w-wrap {
+  word-wrap:break-word;
+}
+/* 
+  设置元素display属性为flex
+  元素两侧方向显示
+  垂直方向居中显示
+   */
+.f-j-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 
+  设置元素display属性为flex
+  元素平均显示
+  垂直方向居中显示
+   */
+.f-j-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 字体大小为12px */
+.f-s12 {
+  font-size: 12px;
+}
+
+/* 字体大小为14px */
+.f-s14 {
+  font-size: 14px;
+}
+
+/* 字体大小为16px */
+.f-s16 {
+  font-size: 16px;
+}
+
+/* 字体大小为20px */
+.f-s20 {
+  font-size: 20px;
+}
+/* 字体大小为30px */
+.f-s30 {
+  font-size: 30px;
+}
+/* 字体大小为25px */
+.f-s25 {
+  font-size: 25px;
+}
+
+/* 字体颜色为白色 */
+.f-c-w {
+  color: #fff;
+}
+
+/* 字体颜色为浅灰色 */
+.f-c-c {
+  color: #ccc;
+}
+.f-c-e {
+  color: #eee;
+}
+/* 字体颜色为浅灰色 */
+.f-c-6 {
+  color: #666;
+}
+/* 字体颜色为浅灰色 */
+.f-c-9 {
+  color: #999;
+}
+
+/* 字体加粗 */
+.f-w-b {
+  font-weight: bold;
+}
+
+/* 设置padding为10px */
+.p-10 {
+  padding: 10px;
+}
+.p-t0 {
+		padding-top: 0 !important;
+	}
+
+/* 设置padding为20px */
+.p-20 {
+  padding: 20px;
+}
+
+/* 设置padding为5px */
+.p-5 {
+  padding: 5px;
+}
+
+/* 设置padding左右为5px */
+.p-l-r5 {
+  padding: 0px 5px;
+}
+
+/* 设置padding左边为10px */
+.p-l10 {
+  padding-left: 10px;
+}
+
+/* 设置padding左边为15px */
+.p-l15 {
+  padding-left: 15px;
+}
+
+/* 设置padding右边为10px */
+.p-r10 {
+  padding-right: 10px;
+}
+
+/* 设置padding右边为0px */
+.p-r0 {
+  padding-right: 0px;
+}
+.p-l0 {
+  padding-left: 0px;
+}
+
+
+/* 设置padding左右为10px */
+.p-l-r10 {
+  padding: 0px 10px;
+}
+
+/* 设置padding左右为20px */
+.p-l-r20 {
+  padding: 0px 20px;
+}
+
+/* 设置padding上面为10px */
+.p-t10 {
+  padding-top: 10px;
+}
+
+/* 设置padding上下为10px */
+.p-tb10 {
+  padding: 10px 0px;
+}
+
+/* 设置padding上下为20px */
+.p-tb20 {
+  padding: 20px 0px;
+}
+
+/* 设置padding上为20px */
+.p-t20 {
+  padding-top: 20px;
+}
+
+/* padding-bottom为20px */
+.p-b20 {
+  padding-bottom: 20px;
+}
+
+/* padding-bottom为10px */
+.p-b10 {
+  padding-bottom: 10px;
+}
+
+/* 设置margin为10px */
+.m-10 {
+  margin: 10px;
+}
+
+
+/* 设置margin-top为10px */
+.m-t10 {
+  margin-top: 10px;
+}
+/* 设置margin-top为5px */
+.m-t5 {
+  margin-top: 5px;
+}
+/* 设置margin-bottom为10px */
+.m-b10 {
+  margin-bottom: 10px;
+}
+.m-b5 {
+  margin-bottom: 5px;
+}
+
+/* 设置margin-right为20px */
+.m-r20 {
+  margin-right: 20px;
+}
+
+/* 设置margin-right为5px */
+.m-r5 {
+  margin-right: 5px;
+}
+
+/* 设置margin-left为10px */
+.m-l10 {
+  margin-left: 10px;
+}
+
+/* 设置margin左边和右边为10px */
+.m-lr10 {
+  margin: 0px 10px;
+}
+
+/* 设置margin左边和右边为5px */
+.m-lr5 {
+  margin: 0px 5px;
+}
+
+/* 设置margin-top为5px */
+.m-t5 {
+  margin-top: 5px;
+}
+
+/* 设置margin上下为10px */
+.m-t-b10 {
+  margin: 10px 0px;
+}
+
+/* 设置margin上下为5px */
+.m-t-b5 {
+  margin: 5px 0px;
+}
+
+/* 设置margin上下左右为15px */
+.m-15 {
+  margin: 15px;
+}
+
+/* 设置margin上下左右为20px */
+.m-20 {
+  margin: 20px;
+}
+
+/* 设置margin上为20px */
+.m-t20 {
+  margin-top: 20px;
+}
+
+/* 设置margin下为10px */
+.m-b10 {
+  margin-bottom: 10px;
+}
+
+/* 设置margin下为20px */
+.m-b20 {
+  margin-bottom: 20px;
+}
+
+/* 设置margin上下为20px */
+.m-t-b20 {
+  margin: 20px 0px;
+}
+
+/* 设置margin-right为10px */
+.m-r10 {
+  margin-right: 10px;
+}
+
+/* 设置margin-right为0px */
+.m-r0 {
+  margin-right: 0px;
+}
+
+/* 圆点 */
+.yd {
+  border-radius: 100%;
+}
+
+/* 文本内容水平居中 */
+.t-a-c {
+  text-align: center;
+}
+
+/* 文本内容居右显示 */
+.t-a-r {
+  text-align: right;
+}
+
+/* 相对定位 */
+.p-r {
+  position: relative;
+}
+/* 背景颜色为白色 */
+.bc-w {
+  background-color: #fff;
+}
+/* 背景颜色为浅灰色 */
+.bc-e {
+  background-color: #F3f4f5
+}
+
+/* 居中 */
+.m-a {
+  margin: 0 auto;
+}
+.m-a-c {
+  margin: auto 0;
+}
+
+
+/* 文本内容超过两行省略号显示 */
+.sl-two {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+/* 文本内容超过三行省略号显示 */
+.sl-three {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* 文本内容超过宽度省略号显示 */
+.sl-one {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 行间距20px */
+.lh20 {
+  line-height: 20px;
+}
+
+/* 行间距30px */
+.lh30 {
+  line-height: 30px;
+}
+
+/* 行间距25px */
+.lh25 {
+  line-height: 25px;
+}
+
+/* 设置没有下划线 */
+.t-d-n {
+  text-decoration: none;
+}
+
+/* 宽度百分百 */
+.wbfb {
+  width: 100%;
+}
+
+/* 高度百分百 */
+.hbfb {
+  height: 100%;
+}
+
+/* 超出部分隐藏 */
+.o-hidden {
+  overflow: hidden;
+}
+
+/* 设置固定定位 */
+.p-f {
+  position: fixed;
+}
+
+.p-b {
+  position: absolute;
+}
+
+.b-b {
+  border-bottom: 1px solid #eee;
+}
+.br-20 {
+	border-radius: 20px
+}
+.br-5 {
+  border-radius: 5px;
+}
+.br-10 {
+	border-radius: 10px
+}
+
+.h-vh {
+	height: 100vh;
+}
+.w-vw {
+	width: 100vW;
+}
+.z {
+	z-index: 999;
+}
+.z-1 {
+	z-index: -1;
+}
+.f-s0 {
+	font-size: 0;
+}
+.c-p {
+  cursor: pointer;
+}
+.b-e {
+  border: 1px solid #eee;
+}

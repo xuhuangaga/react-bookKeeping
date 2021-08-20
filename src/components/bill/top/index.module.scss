@@ -1,0 +1,31 @@
+$bgc: #007fff;
+.tdv {
+  background-color:$bgc;
+  height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .rdv {
+    background-color: #0072e5;
+    padding: 3px 10px;
+    .icf {
+      font-size: 16px !important;
+      margin-left: 5px !important;
+    }
+  }
+}
+.close {
+  right: 10px;
+}
+.activeItem {
+  background-color: $bgc !important;
+  color: #fff;
+}
+.item {
+  width: 31.3%;
+  background-color: #fff;
+}
+.item:nth-child(3n){
+  margin-right: 0 !important;
+}

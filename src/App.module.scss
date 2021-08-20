@@ -1,0 +1,185 @@
+$color:#597fe7;
+$height200:200px;
+$wf94:94%;
+$bcolor:#007fff;
+$tcolor:#ecbe25;
+
+
+
+// 登录
+.ldv {
+  background-image: linear-gradient(217deg, #6fb9f8, #3daaf85e, #49d3fc1a, #3fd3ff00);
+
+  .limg {
+    background: url(//s.yezgea02.com/1616032174786/cryptocurrency.png) no-repeat center;
+    background-size: 120%;
+    height: $height200;
+  }
+
+  .item {
+    color: $color;
+    padding-bottom: 5px;
+  }
+
+  .activeItem {
+    border-bottom: 2pX solid $color;
+    font-size: 22px;
+  }
+
+  .iconfont {
+    font-size: 25px !important;
+  }
+
+  .code {
+    background: #dff0db;
+    width: 120px;
+    height: 40px;
+  }
+}
+
+// 我的
+.mydv {
+  .top {
+    background: url(//s.yezgea02.com/1615971681107/%E4%BD%8D%E5%9B%BE%402x.png) no-repeat;
+    height: $height200;
+  }
+
+  .nickdv {
+    background-color: #597fe7;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 5px 10px;
+  }
+
+  .signout {
+    width: $wf94 !important;
+    bottom: 80px;
+  }
+
+  .content {
+    top: -60px;
+    width: $wf94;
+    padding: 1px 7px;
+  }
+
+  .bottom {
+    height: 450px;
+  }
+}
+
+//账单
+.bdv {
+  .content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    min-height: 550px;
+
+    .nodata {
+      margin-top: 50%;
+    }
+
+    .dvitem {
+      border: 1px solid #ccc;
+
+      .con {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        .icf {
+          color: $bcolor !important;
+          font-size: 22px;
+        }
+
+        .name {
+          margin-left: 5px;
+        }
+
+        .zc {
+          color: rgb(57, 190, 119);
+        }
+
+        .sr {
+          color: red;
+        }
+      }
+    }
+
+    .top {
+      background-color: #f9f9f9;
+
+      .types {
+        background-color: $bcolor;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+//详情
+.deltail {
+  .zc {
+    background-color: $bcolor;
+  }
+
+  .sr {
+    background-color: $tcolor;
+  }
+
+  .deli {
+    color: red;
+  }
+}
+
+//统计
+.tjdv {
+  
+  min-height: 550px;
+  margin-bottom: 50px;
+  .rldv {
+    .sx {
+      background-color: #666;
+      width: 1px;
+      height: 10px;
+    }
+  }
+
+  .money {
+    color: $bcolor;
+  }
+
+  .item {
+    padding: 4px 8px;
+  }
+
+  .itemO {
+    color: $bcolor;
+    background-color: rgba(0, 127, 255, .2);
+  }
+
+  .itemT {
+    color: $tcolor;
+    background-color: rgba(236, 190, 37, .2);
+  }
+
+  .icfO {
+    background-color: $bcolor;
+  }
+
+  .icfT {
+    background-color: $tcolor;
+  }
+  .sProgress {
+    .za-progress__track {
+      background: red !important;
+      // background: none !important;
+    }
+  }
+}
+.refresh {
+  padding-bottom: 20px;
+  .ricf {
+    margin-right: 10px;
+  }
+}
